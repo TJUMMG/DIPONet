@@ -32,9 +32,9 @@ Download the following datasets and unzip them into `data` folder.
 * [DUTS](https://drive.google.com/open?id=1immMDAPC9Eb2KCtGi6AdfvXvQJnSkHHo) dataset. The .lst file for training is `data/DUTS/DUTS-TR/train_pair.lst`.
 * [BSDS-PASCAL](https://drive.google.com/open?id=1qx8eyDNAewAAc6hlYHx3B9LXvEGSIqQp) dataset. The .lst file for training is `./data/HED-BSDS_PASCAL/bsds_pascal_train_pair_r_val_r_small.lst`.
 * [Datasets for testing](https://drive.google.com/open?id=1eB-59cMrYnhmMrz7hLWQ7mIssRaD-f4o).
-* 
+* For edge label, you should calculate them by using "get_edge_data.py".
 
-### 3. Download the pre-trained models for backbone
+### 3. Download the pre-trained models for backbone (VGG16 and ResNet50)
 
 Download the following pre-trained models [GoogleDrive](https://drive.google.com/open?id=1Q2Fg2KZV8AzNdWNjNgcavffKJBChdBgy) | [BaiduYun](https://pan.baidu.com/s/1ehZheaqeU3pyvYQfRU9c6A) (pwd: **27p5**) into `dataset/pretrained` folder. 
 
