@@ -1,11 +1,12 @@
-## A Simple Pooling-Based Design for Real-Time Salient Object Detection
+## DIPONet: Dual-Information Progressive Optimization Network for Salient Object Detection.
 
-### This is a PyTorch implementation of our CVPR 2019 [paper](https://arxiv.org/abs/1904.09569).
+### This is a PyTorch implementation of our proposed DIPONet for SOD. It has been submitted to IEEE Transactions on Circuits and Systems for Video Technology.
 
 ## Prerequisites
 
 - [Pytorch 0.4.1+](http://pytorch.org/)
 - [torchvision](http://pytorch.org/)
+- scipy 1.2.1
 
 ## Update
 
