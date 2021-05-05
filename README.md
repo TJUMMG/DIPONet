@@ -21,13 +21,18 @@ cd DIPONet/
 
 ### 2. Download the datasets
 
-Download the following datasets and unzip them into `data` folder.
+Download the training dataset and unzip it into `data` folder.
+* [DUTS-TR] [BaiDuYun]：https://pan.baidu.com/s/1cGqi_Y7EEmNkxNJksqS75g  提取码：3i30 
 
-* [MSRA-B and HKU-IS](https://drive.google.com/open?id=14RA-qr7JxU6iljLv6PbWUCQG0AJsEgmd) dataset. The .lst file for training is `data/msrab_hkuis/msrab_hkuis_train_no_small.lst`.
-* [DUTS](https://drive.google.com/open?id=1immMDAPC9Eb2KCtGi6AdfvXvQJnSkHHo) dataset. The .lst file for training is `data/DUTS/DUTS-TR/train_pair.lst`.
-* [BSDS-PASCAL](https://drive.google.com/open?id=1qx8eyDNAewAAc6hlYHx3B9LXvEGSIqQp) dataset. The .lst file for training is `./data/HED-BSDS_PASCAL/bsds_pascal_train_pair_r_val_r_small.lst`.
-* [Datasets for testing](https://drive.google.com/open?id=1eB-59cMrYnhmMrz7hLWQ7mIssRaD-f4o).
-* For edge label, you should calculate them by using "get_edge_data.py".
+Download the testing datasets and unzip them into `data` folder.
+* [DUTS-TE] [BaiDuYun]：https://pan.baidu.com/s/1LNsK_HrYU5i1bmHmKN845g 提取码：do8e
+* [ECSSD] [BaiDuYun]：https://pan.baidu.com/s/1aFD6YQLd1Pe-pjbjqwttTw 提取码：3g9c 
+* [HKU-IS] [BaiDuYun]：https://pan.baidu.com/s/1zkYK89nAUZiZoF-Hb1evUA 提取码：9ht7 
+* [PASCALS] [BaiDuYun]：https://pan.baidu.com/s/14v33nF34U3VJ7JeOu_f3vA 提取码：t9wi  
+* [SOD] [BaiDuYun]：https://pan.baidu.com/s/19-MZkMrkIqTmV9-6ZBFDhw 提取码：egwp 
+* [DUTS-TR] [BaiDuYun]：https://pan.baidu.com/s/19-_pLTitsTvDsaJjBHXKzA 提取码：4g0p 
+
+For edge label, you can calculate them by using "get_edge_data.py".
 
 ### 3. Download the pre-trained models for backbone (VGG16 and ResNet50)
 
