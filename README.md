@@ -50,51 +50,16 @@ Download the following pre-trained models [BaiDuYun]：https://pan.baidu.com/s/1
 4. After training the result model will be stored under `./trainresults/resnet` or `./trainresults/vgg` folder.
 
 ### 5. Test
-
-For single dataset testing: `*` changes accordingly and `--sal_mode` indicates different datasets (details can be found in `main.py`)
-```shell
-python main.py --mode='test' --model='results/run-*/models/final.pth' --test_fold='results/run-*-sal-e' --sal_mode='e'
-```
-For all datasets testing used in our paper: `2` indicates the gpu to use
-```shell
-./forward.sh 2 main.py results/run-*
-```
-For joint training, to get salient object detection results use
-```shell
-./forward.sh 2 joint_main.py results/run-*
-```
-to get edge detection results use
-```shell
-./forward_edge.sh 2 joint_main.py results/run-*
-```
-
-All results saliency maps will be stored under `results/run-*-sal-*` folders in .png formats.
+The DIPONet model trained by authors [BaiDuYun]：https://pan.baidu.com/s/1at-NmppBhBy-T_hlgpowVw 提取码：pzfj 
+aliency maps will be stored under `results/run-*-sal-*` folders in .png formats.
 
 
-### 6. Pre-trained models, pre-computed results and evaluation results
+### 6. Pre-trained models, pre-computed results and evaluation tools
 
-We provide the pre-trained model, pre-computed saliency maps and evaluation results for:
-1. PoolNet-ResNet50 w/o edge model [GoogleDrive](https://drive.google.com/open?id=12Zgth_CP_kZPdXwnBJOu4gcTyVgV2Nof) | [BaiduYun](https://pan.baidu.com/s/1m3BXHZt5PJO5lEdWF0MqBA ) (pwd: **2uln**).
-2. PoolNet-ResNet50 w/ edge model (best performance) [GoogleDrive](https://drive.google.com/open?id=1sH5RKEt6SnG33Z4sI-hfLs2d21GmegwR) | [BaiduYun](https://pan.baidu.com/s/10AXBYc_YY3FYcEbCWX6f-A) (pwd: **ksii**).
-3. PoolNet-VGG16 w/ edge model (pre-computed maps) [GoogleDrive](https://drive.google.com/open?id=1jbNyNUJFZPb_jhwkm_D70gsxXgbbv_S1) | [BaiduYun](https://pan.baidu.com/s/1gcl-BVwn1YZpaOV3XNxeBQ) (pwd: **3wgc**).
-
-Note：
-
-1. only support `bath_size=1`
-2. Except for the backbone we do not use BN layer.
+1. The DIPONet model trained by authors [BaiDuYun]：https://pan.baidu.com/s/1at-NmppBhBy-T_hlgpowVw  提取码：pzfj 
+2. we provide Saliency maps calculated by ourselves [BaiDuYun]: https://pan.baidu.com/s/1KLJxZzALrUflSj2NI-mcAg  提取码：0jdg 
+3. All the evaluation results are calculated by using https://github.com/ArcherFMY/sal_eval_toolbox.
 
 ### 7. Contact
-If you have any questions, feel free to contact me via: `j04.liu(at)gmail.com`.
+If you have any questions, feel free to contact me via: `yuanmin@tju.edu.cn`.
 
-
-### If you think this work is helpful, please cite
-```latex
-@inproceedings{Liu2019PoolSal,
-  title={A Simple Pooling-Based Design for Real-Time Salient Object Detection},
-  author={Jiang-Jiang Liu and Qibin Hou and Ming-Ming Cheng and Jiashi Feng and Jianmin Jiang},
-  booktitle={IEEE CVPR},
-  year={2019},
-}
-```
-
-Thanks to [DSS](https://github.com/Andrew-Qibin/DSS) and [DSS-pytorch](https://github.com/AceCoooool/DSS-pytorch).
