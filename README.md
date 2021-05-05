@@ -36,7 +36,8 @@ Download the following datasets and unzip them into `data` folder.
 
 ### 3. Download the pre-trained models for backbone (VGG16 and ResNet50)
 
-Download the following pre-trained models [GoogleDrive](https://drive.google.com/open?id=1Q2Fg2KZV8AzNdWNjNgcavffKJBChdBgy) | [BaiduYun](https://pan.baidu.com/s/1ehZheaqeU3pyvYQfRU9c6A) (pwd: **27p5**) into `dataset/pretrained` folder. 
+Download the following pre-trained models [BaiDuYun]：https://pan.baidu.com/s/1qc6zgWf3aDAre6Ey_KQGlw 
+提取码：4o44 into `./pretrained` folder. 
 
 ### 4. Train
 
