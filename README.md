@@ -19,8 +19,8 @@
 ### 1. Clone the repository
 
 ```shell
-git clone https://github.com/backseason/PoolNet.git
-cd PoolNet/
+git clone https://github.com/TJUMMG/DIPONet.git
+cd DIPONet/
 ```
 
 ### 2. Download the datasets
@@ -31,6 +31,7 @@ Download the following datasets and unzip them into `data` folder.
 * [DUTS](https://drive.google.com/open?id=1immMDAPC9Eb2KCtGi6AdfvXvQJnSkHHo) dataset. The .lst file for training is `data/DUTS/DUTS-TR/train_pair.lst`.
 * [BSDS-PASCAL](https://drive.google.com/open?id=1qx8eyDNAewAAc6hlYHx3B9LXvEGSIqQp) dataset. The .lst file for training is `./data/HED-BSDS_PASCAL/bsds_pascal_train_pair_r_val_r_small.lst`.
 * [Datasets for testing](https://drive.google.com/open?id=1eB-59cMrYnhmMrz7hLWQ7mIssRaD-f4o).
+* 
 
 ### 3. Download the pre-trained models for backbone
 
