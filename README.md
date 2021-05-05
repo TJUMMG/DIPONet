@@ -7,6 +7,7 @@
 - [Pytorch 0.4.1+](http://pytorch.org/)
 - [torchvision](http://pytorch.org/)
 - scipy 1.2.1
+- opencv-python 4.4.0.44
 
 ## Update
 
