@@ -41,17 +41,13 @@ Download the following pre-trained models [BaiDuYun]：https://pan.baidu.com/s/1
 
 ### 4. Train
 
-1. Set the `--train_root` and `--train_list` path in `train.sh` correctly.
+1. Set the `image_root` and `gt_root` path in `train.py` correctly.
 
-2. We demo using ResNet-50 as network backbone and train with a initial lr of 5e-5 for 24 epoches, which is divided by 10 after 15 epochs.
-```shell
-./train.sh
-```
-3. We demo joint training with edge using ResNet-50 as network backbone and train with a initial lr of 5e-5 for 11 epoches, which is divided by 10 after 8 epochs. Each epoch runs for 30000 iters.
-```shell
-./joint_train.sh
-```
-4. After training the result model will be stored under `results/run-*` folder.
+2. We demo using ResNet-50 and VGG-16 as network backbone and train with a initial lr of 2e-5 for 26 epoches, which is divided by 2 after 14 and 22 epochs. The input size is 448 * 448 and the batch size is 5.
+
+3. We demo joint training with edge, you should calaclate edge labels by yourself and put them with saliency labels together.
+
+4. After training the result model will be stored under `./trainresults/resnet` or `./trainresults/vgg` folder.
 
 ### 5. Test
 
