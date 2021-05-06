@@ -21,10 +21,10 @@ cd DIPONet/
 
 ### 2. Download the datasets
 
-Download the training dataset and unzip it into `data` folder.
+Download the training dataset and unzip it into `./data` folder.
 * [DUTS-TR] [BaiDuYun]：https://pan.baidu.com/s/1cGqi_Y7EEmNkxNJksqS75g  提取码：3i30 
 
-Download the testing datasets and unzip them into `data` folder.
+Download the testing datasets and unzip them into `./data` folder.
 * [DUTS-TE] [BaiDuYun]：https://pan.baidu.com/s/1LNsK_HrYU5i1bmHmKN845g 提取码：do8e
 * [ECSSD] [BaiDuYun]：https://pan.baidu.com/s/1aFD6YQLd1Pe-pjbjqwttTw 提取码：3g9c 
 * [HKU-IS] [BaiDuYun]：https://pan.baidu.com/s/1zkYK89nAUZiZoF-Hb1evUA 提取码：9ht7 
