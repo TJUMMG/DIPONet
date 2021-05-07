@@ -30,7 +30,7 @@ Download the testing datasets and unzip them into `./data` folder.
 * [HKU-IS] 
 * [PASCALS]   
 * [SOD] 
-* [DUTS-TR]  
+* [DUTOMRON]  
 
 For edge label, you can calculate them by using "get_edge_data.py". And you should put edge labels and sal labels together.
 If you can't find these public SOD datasets, please concat us via: `liu_tju@tju.edu.cn`.
