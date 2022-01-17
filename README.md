@@ -1,6 +1,6 @@
 ## DIPONet: Dual-Information Progressive Optimization Network for Salient Object Detection.
 
-### This is a PyTorch implementation of our proposed DIPONet for SOD. It has been submitted to IEEE Transactions on Circuits and Systems for Video Technology.
+### This is a PyTorch implementation of our proposed DIPONet for SOD. It has been accepted by DIGITAL SIGNAL PROCESSING.
 
 ## Prerequisites
 
