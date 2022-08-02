@@ -63,7 +63,7 @@ Download the following pre-trained models [BaiDuYun]：https://pan.baidu.com/s/1
 
 ### 6. Pre-trained models, pre-computed results and evaluation tools
 
-1. The DIPONet model trained by authors [BaiDuYun]：https://pan.baidu.com/s/1at-NmppBhBy-T_hlgpowVw  提取码：pzfj 
+1. The DIPONet model trained by authors [BaiDuYun]：https://pan.baidu.com/s/1C-k2gepxcpPbHR4QEjbD6A  提取码：frf6 
 2. we provide Saliency maps calculated by ourselves [BaiDuYun]: https://pan.baidu.com/s/1KLJxZzALrUflSj2NI-mcAg  提取码：0jdg 
 3. All the evaluation results are calculated by using https://github.com/ArcherFMY/sal_eval_toolbox.
 
